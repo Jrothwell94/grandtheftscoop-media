@@ -1,7 +1,7 @@
 name: voiceover
 # Owner-approved 18 Nov 2026.
 # voice jobs: mix a TTS voiceover (+ optional music) into a clip -> clips/
-# fetch jobs: download image links (https, images only) -> images/bg/, and TTS audio -> audio/
+# fetch jobs: download image links -> images/bg/, TTS audio -> audio/, source clips (e.g. OpusClip exports) -> raw/
 # Runs only when a job file is added under jobs/.
 on:
   push:
@@ -30,15 +30,15 @@ jobs:
             n=$(jq '.items | length' "$job")
             for i in $(seq 0 $((n-1))); do
               url=$(jq -r ".items[$i].url" "$job"); out=$(jq -r ".items[$i].out" "$job")
-              case "$out" in images/bg/*|audio/*) ;; *) echo "bad out path $out"; continue;; esac
+              case "$out" in images/bg/*|audio/*|raw/*) ;; *) echo "bad out path $out"; continue;; esac
               case "$out" in *..*) echo "bad out path $out"; continue;; esac
               case "$url" in https://*) ;; *) echo "skip non-https $url"; continue;; esac
               case "$out" in audio/*) case "$url" in https://cdn.ttsforfree.com/*) ;; *) echo "audio only from TTSForFree"; continue;; esac;; esac
               [ -f "$out" ] && { echo "exists $out"; continue; }
               mkdir -p "$(dirname "$out")"
-              if curl -fsSL --max-filesize 30000000 -A "Mozilla/5.0" -o /tmp/dl "$url"; then
+              if curl -fsSL --max-filesize 300000000 -A "Mozilla/5.0" -o /tmp/dl "$url"; then
                 mime=$(file -b --mime-type /tmp/dl)
-                case "$mime" in image/*|audio/*) mv /tmp/dl "$out"; echo "ok $out ($mime)";;
+                case "$mime" in image/*|audio/*|video/*) mv /tmp/dl "$out"; echo "ok $out ($mime)";;
                   *) echo "skip $url ($mime)"; echo "FAIL $url ($mime)" >> downloads/report.txt;; esac
               else
                 echo "FAIL $url" >> downloads/report.txt
@@ -73,5 +73,5 @@ jobs:
         run: |
           git config user.name "Grand Theft Scoop bot"
           git config user.email "grandtheftscoop@gmail.com"
-          git add -A clips images/bg audio downloads || true
+          git add -A clips images/bg audio raw downloads || true
           git diff --cached --quiet || (git commit -m "Voiceover renders [skip ci]" && git push)

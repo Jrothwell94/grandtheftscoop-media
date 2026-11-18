@@ -1,0 +1,18 @@
+{
+ "type": "fetch",
+ "note": "Digital Foundry GTA 6 tech review clips via OpusClip. Credit @digitalfoundry.",
+ "items": [
+  {
+   "url": "https://signed-ext.cdn.opus.pro/media/org_1k7m9d0r0qiIiWIu2MGTB/user_01M7P9D05MQZJ811JPJVPJMGTB/P3111815E0dZ/c.6FUxTOyvg7/VIDEO_FILE_-0-19231.mp4?v=1795015373839292&hdnts=URLPrefix=aHR0cHM6Ly9zaWduZWQtZXh0LmNkbi5vcHVzLnByby9tZWRpYS9vcmdfMWs3bTlkMHIwcWlJaVdJdTJNR1RCL3VzZXJfMDFNN1A5RDA1TVFaSjgxMUpQSlZQSk1HVEIvUDMxMTE4MTVFMGRaLw~Expires=1795101826~Signature=im-kpzsBWkJPPGrAJ86LQY4GbWhxezck1SZ6NA2yhs_leAuIUf_omFWFZFQoQfstHz1Bp2cogdTgt-p9IOoqCA",
+   "out": "raw/2026-11-18/df_night_lighting.mp4"
+  },
+  {
+   "url": "https://signed-ext.cdn.opus.pro/media/org_1k7m9d0r0qiIiWIu2MGTB/user_01M7P9D05MQZJ811JPJVPJMGTB/P3111815E0dZ/c.b5LS02ZZ9L/VIDEO_FILE_-0-38739.mp4?v=1795015373944168&hdnts=URLPrefix=aHR0cHM6Ly9zaWduZWQtZXh0LmNkbi5vcHVzLnByby9tZWRpYS9vcmdfMWs3bTlkMHIwcWlJaVdJdTJNR1RCL3VzZXJfMDFNN1A5RDA1TVFaSjgxMUpQSlZQSk1HVEIvUDMxMTE4MTVFMGRaLw~Expires=1795101826~Signature=im-kpzsBWkJPPGrAJ86LQY4GbWhxezck1SZ6NA2yhs_leAuIUf_omFWFZFQoQfstHz1Bp2cogdTgt-p9IOoqCA",
+   "out": "raw/2026-11-18/df_car_paint.mp4"
+  },
+  {
+   "url": "https://signed-ext.cdn.opus.pro/media/org_1k7m9d0r0qiIiWIu2MGTB/user_01M7P9D05MQZJ811JPJVPJMGTB/P3111815E0dZ/c.c06vF99S3n/VIDEO_FILE_-0-38127.mp4?v=1795015373921516&hdnts=URLPrefix=aHR0cHM6Ly9zaWduZWQtZXh0LmNkbi5vcHVzLnByby9tZWRpYS9vcmdfMWs3bTlkMHIwcWlJaVdJdTJNR1RCL3VzZXJfMDFNN1A5RDA1TVFaSjgxMUpQSlZQSk1HVEIvUDMxMTE4MTVFMGRaLw~Expires=1795101826~Signature=im-kpzsBWkJPPGrAJ86LQY4GbWhxezck1SZ6NA2yhs_leAuIUf_omFWFZFQoQfstHz1Bp2cogdTgt-p9IOoqCA",
+   "out": "raw/2026-11-18/df_police_damage.mp4"
+  }
+ ]
+}
