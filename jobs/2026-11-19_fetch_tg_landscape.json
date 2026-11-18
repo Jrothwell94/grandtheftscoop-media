@@ -1,0 +1,18 @@
+{
+ "type": "fetch",
+ "note": "Typical Gamer landscape L1-L3",
+ "items": [
+  {
+   "url": "https://signed-ext.cdn.opus.pro/media/org_1k7m9d0r0qiIiWIu2MGTB/user_01M7P9D05MQZJ811JPJVPJMGTB/P3111823RF5A/c.dCBvBT4wwl/VIDEO_FILE_-0-34698.mp4?v=1795044731826460&hdnts=URLPrefix=aHR0cHM6Ly9zaWduZWQtZXh0LmNkbi5vcHVzLnByby9tZWRpYS9vcmdfMWs3bTlkMHIwcWlJaVdJdTJNR1RCL3VzZXJfMDFNN1A5RDA1TVFaSjgxMUpQSlZQSk1HVEIvUDMxMTE4MjNSRjVBLw~Expires=1795132136~Signature=ngRpna7ljy8-_1TDYAPpGpD_JE2-SrYUC3YysZUSKqy679ZwixkMWR6bKfJ-b9-YmtE1290o1ykVxPeopjtuCw",
+   "out": "raw/2026-11-19/L1.mp4"
+  },
+  {
+   "url": "https://signed-ext.cdn.opus.pro/media/org_1k7m9d0r0qiIiWIu2MGTB/user_01M7P9D05MQZJ811JPJVPJMGTB/P3111823RF5A/c.1seFCmGrd6/VIDEO_FILE_-0-42195.mp4?v=1795044731450392&hdnts=URLPrefix=aHR0cHM6Ly9zaWduZWQtZXh0LmNkbi5vcHVzLnByby9tZWRpYS9vcmdfMWs3bTlkMHIwcWlJaVdJdTJNR1RCL3VzZXJfMDFNN1A5RDA1TVFaSjgxMUpQSlZQSk1HVEIvUDMxMTE4MjNSRjVBLw~Expires=1795132136~Signature=ngRpna7ljy8-_1TDYAPpGpD_JE2-SrYUC3YysZUSKqy679ZwixkMWR6bKfJ-b9-YmtE1290o1ykVxPeopjtuCw",
+   "out": "raw/2026-11-19/L2.mp4"
+  },
+  {
+   "url": "https://signed-ext.cdn.opus.pro/media/org_1k7m9d0r0qiIiWIu2MGTB/user_01M7P9D05MQZJ811JPJVPJMGTB/P3111823RF5A/c.Hi4nOoPx5P/VIDEO_FILE_-0-34007.mp4?v=1795044731456092&hdnts=URLPrefix=aHR0cHM6Ly9zaWduZWQtZXh0LmNkbi5vcHVzLnByby9tZWRpYS9vcmdfMWs3bTlkMHIwcWlJaVdJdTJNR1RCL3VzZXJfMDFNN1A5RDA1TVFaSjgxMUpQSlZQSk1HVEIvUDMxMTE4MjNSRjVBLw~Expires=1795132137~Signature=99T-R9mHy9AWk0sFKcEUddjxWySIHeAyIOpBvaOorPMYL48pg9lGW3PxfV4PDS-yLNh6ZD6V-Lt3pYEH9VsLAA",
+   "out": "raw/2026-11-19/L3.mp4"
+  }
+ ]
+}
