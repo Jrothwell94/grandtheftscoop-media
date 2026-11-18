@@ -1,0 +1,14 @@
+{
+ "type": "fetch",
+ "note": "DF clips C4/C5",
+ "items": [
+  {
+   "url": "https://signed-ext.cdn.opus.pro/media/org_1k7m9d0r0qiIiWIu2MGTB/user_01M7P9D05MQZJ811JPJVPJMGTB/P3111815E0dZ/c.ol2gGPghTv/VIDEO_FILE_-0-28380.mp4?v=1795015373852529&hdnts=URLPrefix=aHR0cHM6Ly9zaWduZWQtZXh0LmNkbi5vcHVzLnByby9tZWRpYS9vcmdfMWs3bTlkMHIwcWlJaVdJdTJNR1RCL3VzZXJfMDFNN1A5RDA1TVFaSjgxMUpQSlZQSk1HVEIvUDMxMTE4MTVFMGRaLw~Expires=1795104208~Signature=Tv_NiPVu-OrP-yQLJ0A8hd3TabSp6hgCV-enh4sOTvsoqmH7RtV1L74wlwVATOjBb-KtYHbBI0oUnnBnmXCeBw",
+   "out": "raw/2026-11-18/df_npc_autonomy.mp4"
+  },
+  {
+   "url": "https://signed-ext.cdn.opus.pro/media/org_1k7m9d0r0qiIiWIu2MGTB/user_01M7P9D05MQZJ811JPJVPJMGTB/P3111815E0dZ/c.8D9yT7zwZh/VIDEO_FILE_-0-29255.mp4?v=1795015373829467&hdnts=URLPrefix=aHR0cHM6Ly9zaWduZWQtZXh0LmNkbi5vcHVzLnByby9tZWRpYS9vcmdfMWs3bTlkMHIwcWlJaVdJdTJNR1RCL3VzZXJfMDFNN1A5RDA1TVFaSjgxMUpQSlZQSk1HVEIvUDMxMTE4MTVFMGRaLw~Expires=1795104208~Signature=Tv_NiPVu-OrP-yQLJ0A8hd3TabSp6hgCV-enh4sOTvsoqmH7RtV1L74wlwVATOjBb-KtYHbBI0oUnnBnmXCeBw",
+   "out": "raw/2026-11-18/df_local_weather.mp4"
+  }
+ ]
+}
