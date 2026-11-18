@@ -1,0 +1,51 @@
+name: voiceover
+# Mixes a TTS voiceover (and optional background music) into a clip.
+# Runs only when a job file is added under jobs/. Output is committed back to clips/.
+on:
+  push:
+    paths: ["jobs/*.json"]
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: voiceover
+  cancel-in-progress: false
+jobs:
+  mix:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install ffmpeg and jq
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg jq
+      - name: Process pending jobs
+        run: |
+          set -euo pipefail
+          shopt -s nullglob
+          for job in jobs/*.json; do
+            out=$(jq -r .output "$job")
+            if [ -f "$out" ]; then echo "skip $job (exists)"; continue; fi
+            video=$(jq -r .video "$job")
+            audio_url=$(jq -r .audio_url "$job")
+            case "$audio_url" in https://cdn.ttsforfree.com/*) ;; *) echo "refusing non-TTS url"; exit 1;; esac
+            music=$(jq -r '.music // empty' "$job")
+            music_offset=$(jq -r '.music_offset // 0' "$job")
+            music_vol=$(jq -r '.music_volume // 0.25' "$job")
+            curl -fsSL -o /tmp/vo.mp3 "$audio_url"
+            dur=$(ffprobe -v error -show_entries format=duration -of csv=p=0 "$video")
+            fo=$(python3 -c "print(max(0, float('$dur') - 1))")
+            mkdir -p "$(dirname "$out")"
+            if [ -n "$music" ]; then
+              ffmpeg -y -loglevel error -i "$video" -i /tmp/vo.mp3 -ss "$music_offset" -i "$music" \
+                -filter_complex "[2:a]volume=${music_vol},afade=t=out:st=${fo}:d=1[m];[1:a]volume=1.6,apad[v];[v][m]amix=inputs=2:duration=longest:normalize=0[a]" \
+                -map 0:v:0 -map "[a]" -c:v copy -c:a aac -b:a 192k -t "$dur" -movflags +faststart "$out"
+            else
+              ffmpeg -y -loglevel error -i "$video" -i /tmp/vo.mp3 -map 0:v:0 -map 1:a:0 -c:v copy -c:a aac -b:a 192k -af apad -t "$dur" -movflags +faststart "$out"
+            fi
+            echo "made $out"
+          done
+      - name: Commit results
+        run: |
+          git config user.name "Grand Theft Scoop bot"
+          git config user.email "grandtheftscoop@gmail.com"
+          git add -A clips || true
+          git diff --cached --quiet || (git commit -m "Voiceover renders [skip ci]" && git push)
