@@ -1,6 +1,8 @@
 name: voiceover
-# Mixes a TTS voiceover (and optional background music) into a clip.
-# Runs only when a job file is added under jobs/. Output is committed back to clips/.
+# Owner-approved 18 Nov 2026.
+# voice jobs: mix a TTS voiceover (+ optional music) into a clip -> clips/
+# fetch jobs: download image links (https, images only) -> images/bg/, and TTS audio -> audio/
+# Runs only when a job file is added under jobs/.
 on:
   push:
     paths: ["jobs/*.json"]
@@ -21,7 +23,31 @@ jobs:
         run: |
           set -euo pipefail
           shopt -s nullglob
+          # --- fetch jobs: download listed files (images from any https link, audio only from TTSForFree) ---
           for job in jobs/*.json; do
+            [ "$(jq -r '.type // "voice"' "$job")" = "fetch" ] || continue
+            mkdir -p downloads
+            n=$(jq '.items | length' "$job")
+            for i in $(seq 0 $((n-1))); do
+              url=$(jq -r ".items[$i].url" "$job"); out=$(jq -r ".items[$i].out" "$job")
+              case "$out" in images/bg/*|audio/*) ;; *) echo "bad out path $out"; continue;; esac
+              case "$out" in *..*) echo "bad out path $out"; continue;; esac
+              case "$url" in https://*) ;; *) echo "skip non-https $url"; continue;; esac
+              case "$out" in audio/*) case "$url" in https://cdn.ttsforfree.com/*) ;; *) echo "audio only from TTSForFree"; continue;; esac;; esac
+              [ -f "$out" ] && { echo "exists $out"; continue; }
+              mkdir -p "$(dirname "$out")"
+              if curl -fsSL --max-filesize 30000000 -A "Mozilla/5.0" -o /tmp/dl "$url"; then
+                mime=$(file -b --mime-type /tmp/dl)
+                case "$mime" in image/*|audio/*) mv /tmp/dl "$out"; echo "ok $out ($mime)";;
+                  *) echo "skip $url ($mime)"; echo "FAIL $url ($mime)" >> downloads/report.txt;; esac
+              else
+                echo "FAIL $url" >> downloads/report.txt
+              fi
+            done
+          done
+          # --- voice jobs: mix TTS voice + music into a clip ---
+          for job in jobs/*.json; do
+            [ "$(jq -r '.type // "voice"' "$job")" = "voice" ] || continue
             out=$(jq -r .output "$job")
             if [ -f "$out" ]; then echo "skip $job (exists)"; continue; fi
             video=$(jq -r .video "$job")
@@ -47,5 +73,5 @@ jobs:
         run: |
           git config user.name "Grand Theft Scoop bot"
           git config user.email "grandtheftscoop@gmail.com"
-          git add -A clips || true
+          git add -A clips images/bg audio downloads || true
           git diff --cached --quiet || (git commit -m "Voiceover renders [skip ci]" && git push)

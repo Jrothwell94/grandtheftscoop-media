@@ -1,0 +1,86 @@
+{
+ "type": "fetch",
+ "note": "Official Rockstar GTA VI screenshots/artwork found via Google (mirrored on gtaboom). Credit: Rockstar Games.",
+ "items": [
+  {
+   "url": "https://media.gtaboom.com/variants/1600/media/images/00/68/gtavi-screenshot-places-vice-city-11.jpg",
+   "out": "images/bg/vc_heli_sunset.jpg"
+  },
+  {
+   "url": "https://media.gtaboom.com/variants/1600/media/images/cc/84/gtavi-screenshot-places-vice-city-10.jpg",
+   "out": "images/bg/vc_waterfront_boats.jpg"
+  },
+  {
+   "url": "https://media.gtaboom.com/variants/1600/media/images/7b/59/gtavi-screenshot-places-vice-city-01.jpg",
+   "out": "images/bg/vc_01.jpg"
+  },
+  {
+   "url": "https://media.gtaboom.com/variants/1600/media/images/54/c0/gtavi-screenshot-places-vice-city-02.jpg",
+   "out": "images/bg/vc_02.jpg"
+  },
+  {
+   "url": "https://media.gtaboom.com/variants/1600/media/images/f2/4f/gtavi-screenshot-places-vice-city-03.jpg",
+   "out": "images/bg/vc_03.jpg"
+  },
+  {
+   "url": "https://media.gtaboom.com/variants/1600/media/images/32/b9/gtavi-screenshot-places-vice-city-04.jpg",
+   "out": "images/bg/vc_04.jpg"
+  },
+  {
+   "url": "https://media.gtaboom.com/variants/1600/media/images/8b/9b/gtavi-screenshot-places-vice-city-05.jpg",
+   "out": "images/bg/vc_05.jpg"
+  },
+  {
+   "url": "https://media.gtaboom.com/variants/1600/media/images/a0/38/gtavi-screenshot-places-leonida-keys-01.jpg",
+   "out": "images/bg/keys_01.jpg"
+  },
+  {
+   "url": "https://media.gtaboom.com/variants/1600/media/images/71/5e/gtavi-screenshot-places-leonida-keys-02.jpg",
+   "out": "images/bg/keys_02.jpg"
+  },
+  {
+   "url": "https://media.gtaboom.com/variants/1600/media/images/1e/df/gtavi-screenshot-places-leonida-keys-03.jpg",
+   "out": "images/bg/keys_03.jpg"
+  },
+  {
+   "url": "https://media.gtaboom.com/variants/1600/media/images/5e/fe/gtavi-screenshot-places-leonida-keys-06.jpg",
+   "out": "images/bg/keys_iguana.jpg"
+  },
+  {
+   "url": "https://media.gtaboom.com/variants/1280/media/images/03/23/gtavi-wallpaper-artwork-jason-and-lucia-01-tablet.jpg",
+   "out": "images/bg/art_jl_01.jpg"
+  },
+  {
+   "url": "https://media.gtaboom.com/variants/1280/media/images/36/40/gtavi-wallpaper-artwork-jason-and-lucia-02-tablet.jpg",
+   "out": "images/bg/art_jl_02.jpg"
+  },
+  {
+   "url": "https://media.gtaboom.com/variants/1280/media/images/b3/c3/gtavi-wallpaper-artwork-jason-and-lucia-03-tablet.jpg",
+   "out": "images/bg/art_jl_03.jpg"
+  },
+  {
+   "url": "https://media.gtaboom.com/variants/1280/media/images/68/eb/gtavi-wallpaper-artwork-jason-lucia-motel-tablet.jpg",
+   "out": "images/bg/art_jl_motel.jpg"
+  },
+  {
+   "url": "https://media.gtaboom.com/variants/1280/media/images/3f/fa/gtavi-wallpaper-postcards-vice-city-postcard-tablet.jpg",
+   "out": "images/bg/post_vicecity.jpg"
+  },
+  {
+   "url": "https://media.gtaboom.com/variants/1280/media/images/84/68/gtavi-wallpaper-postcards-leonida-keys-postcard-tablet.jpg",
+   "out": "images/bg/post_keys.jpg"
+  },
+  {
+   "url": "https://media.gtaboom.com/variants/1600/media/images/ea/14/gtavi-screenshot-people-jason-and-lucia-01.jpg",
+   "out": "images/bg/jl_waterfront_sunset.jpg"
+  },
+  {
+   "url": "https://media.gtaboom.com/variants/1600/media/images/a0/e5/gtavi-screenshot-people-jason-and-lucia-03.jpg",
+   "out": "images/bg/jl_convertible.jpg"
+  },
+  {
+   "url": "https://cdn.ttsforfree.com/audio_merge/0c0c9228-efb4-46ca-9186-7a66f5ab756f.mp3",
+   "out": "audio/2026-11-18_H3_v2_gemini.mp3"
+  }
+ ]
+}
