@@ -1,0 +1,18 @@
+{
+ "type": "fetch",
+ "note": "Typical Gamer T1-T3",
+ "items": [
+  {
+   "url": "https://signed-ext.cdn.opus.pro/media/org_1k7m9d0r0qiIiWIu2MGTB/user_01M7P9D05MQZJ811JPJVPJMGTB/P3111822DgoE/c.A0XFGwHLVA/VIDEO_FILE_-0-21817.mp4?v=1795040577921046&hdnts=URLPrefix=aHR0cHM6Ly9zaWduZWQtZXh0LmNkbi5vcHVzLnByby9tZWRpYS9vcmdfMWs3bTlkMHIwcWlJaVdJdTJNR1RCL3VzZXJfMDFNN1A5RDA1TVFaSjgxMUpQSlZQSk1HVEIvUDMxMTE4MjJEZ29FLw~Expires=1795129705~Signature=AMDg7GLCHw7KpA_Zp5KDBkwVCPNP6lc-OHN4IUBBX-PmQ7RhNtrPg_Hebc_EbcCGrb32VpwvV7KJAp0_SJIoBg",
+   "out": "raw/2026-11-19/T1.mp4"
+  },
+  {
+   "url": "https://signed-ext.cdn.opus.pro/media/org_1k7m9d0r0qiIiWIu2MGTB/user_01M7P9D05MQZJ811JPJVPJMGTB/P3111822DgoE/c.1oo0kVBk7N/VIDEO_FILE_-0-14282.mp4?v=1795040577915618&hdnts=URLPrefix=aHR0cHM6Ly9zaWduZWQtZXh0LmNkbi5vcHVzLnByby9tZWRpYS9vcmdfMWs3bTlkMHIwcWlJaVdJdTJNR1RCL3VzZXJfMDFNN1A5RDA1TVFaSjgxMUpQSlZQSk1HVEIvUDMxMTE4MjJEZ29FLw~Expires=1795129705~Signature=AMDg7GLCHw7KpA_Zp5KDBkwVCPNP6lc-OHN4IUBBX-PmQ7RhNtrPg_Hebc_EbcCGrb32VpwvV7KJAp0_SJIoBg",
+   "out": "raw/2026-11-19/T2.mp4"
+  },
+  {
+   "url": "https://signed-ext.cdn.opus.pro/media/org_1k7m9d0r0qiIiWIu2MGTB/user_01M7P9D05MQZJ811JPJVPJMGTB/P3111822DgoE/c.pWQpwys4mf/VIDEO_FILE_-0-39969.mp4?v=1795040577946077&hdnts=URLPrefix=aHR0cHM6Ly9zaWduZWQtZXh0LmNkbi5vcHVzLnByby9tZWRpYS9vcmdfMWs3bTlkMHIwcWlJaVdJdTJNR1RCL3VzZXJfMDFNN1A5RDA1TVFaSjgxMUpQSlZQSk1HVEIvUDMxMTE4MjJEZ29FLw~Expires=1795129706~Signature=E5du-FRCOWSsihn1QgTJSGrV1BV4vI3fTfiKIrOlDqpzG9Pc-wfqwreD6b6D452IEAJdizaNutoMZRiS-Y5HAg",
+   "out": "raw/2026-11-19/T3.mp4"
+  }
+ ]
+}
