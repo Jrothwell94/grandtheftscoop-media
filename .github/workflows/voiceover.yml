@@ -36,7 +36,7 @@ jobs:
             mkdir -p "$(dirname "$out")"
             if [ -n "$music" ]; then
               ffmpeg -y -loglevel error -i "$video" -i /tmp/vo.mp3 -ss "$music_offset" -i "$music" \
-                -filter_complex "[2:a]volume=${music_vol},afade=t=out:st=${fo}:d=1[m];[1:a]volume=1.6,apad[v];[v][m]amix=inputs=2:duration=longest:normalize=0[a]" \
+                -filter_complex "[2:a]volume=${music_vol},afade=t=out:st=${fo}:d=1[m];[1:a]volume=1.6,apad[v];[v][m]amix=inputs=2:duration=longest:normalize=0,alimiter=limit=0.9[a]" \
                 -map 0:v:0 -map "[a]" -c:v copy -c:a aac -b:a 192k -t "$dur" -movflags +faststart "$out"
             else
               ffmpeg -y -loglevel error -i "$video" -i /tmp/vo.mp3 -map 0:v:0 -map 1:a:0 -c:v copy -c:a aac -b:a 192k -af apad -t "$dur" -movflags +faststart "$out"
