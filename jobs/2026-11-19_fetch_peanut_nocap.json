@@ -1,0 +1,18 @@
+{
+ "type": "fetch",
+ "note": "Peanut clips without OpusClip captions",
+ "items": [
+  {
+   "url": "https://signed-ext.cdn.opus.pro/media/org_1k7m9d0r0qiIiWIu2MGTB/user_01M7P9D05MQZJ811JPJVPJMGTB/P3111905Lj4P/c.wzd0PMHC7E/VIDEO_FILE_-0-31761.mp4?v=1795067923395618&hdnts=URLPrefix=aHR0cHM6Ly9zaWduZWQtZXh0LmNkbi5vcHVzLnByby9tZWRpYS9vcmdfMWs3bTlkMHIwcWlJaVdJdTJNR1RCL3VzZXJfMDFNN1A5RDA1TVFaSjgxMUpQSlZQSk1HVEIvUDMxMTE5MDVMajRQLw~Expires=1795154417~Signature=VpryY5U0Lxreh2zYMSZB530yJB0ADrt8tqaLYjF_yn9DU4mPZcVUJ33hmvS99O61HEq2i28WL38kPGucOQTuCQ",
+   "out": "raw/2026-11-19/PB1n.mp4"
+  },
+  {
+   "url": "https://signed-ext.cdn.opus.pro/media/org_1k7m9d0r0qiIiWIu2MGTB/user_01M7P9D05MQZJ811JPJVPJMGTB/P3111905Lj4P/c.v26diFoAeL/VIDEO_FILE_-0-28457.mp4?v=1795067919867167&hdnts=URLPrefix=aHR0cHM6Ly9zaWduZWQtZXh0LmNkbi5vcHVzLnByby9tZWRpYS9vcmdfMWs3bTlkMHIwcWlJaVdJdTJNR1RCL3VzZXJfMDFNN1A5RDA1TVFaSjgxMUpQSlZQSk1HVEIvUDMxMTE5MDVMajRQLw~Expires=1795154418~Signature=rBpBz9PI3rTwNYG6hW8p_XfM2Hv5myowp1RA2Ni0jT7tJi2Ttrzsr8jHQcekztym-L1Q5s3C6EyYotCoS0P2CA",
+   "out": "raw/2026-11-19/PB3n.mp4"
+  },
+  {
+   "url": "https://signed-ext.cdn.opus.pro/media/org_1k7m9d0r0qiIiWIu2MGTB/user_01M7P9D05MQZJ811JPJVPJMGTB/P3111905Lj4P/c.TxHEGeijF9/VIDEO_FILE_-0-35816.mp4?v=1795067922071051&hdnts=URLPrefix=aHR0cHM6Ly9zaWduZWQtZXh0LmNkbi5vcHVzLnByby9tZWRpYS9vcmdfMWs3bTlkMHIwcWlJaVdJdTJNR1RCL3VzZXJfMDFNN1A5RDA1TVFaSjgxMUpQSlZQSk1HVEIvUDMxMTE5MDVMajRQLw~Expires=1795154418~Signature=rBpBz9PI3rTwNYG6hW8p_XfM2Hv5myowp1RA2Ni0jT7tJi2Ttrzsr8jHQcekztym-L1Q5s3C6EyYotCoS0P2CA",
+   "out": "raw/2026-11-19/PB4n.mp4"
+  }
+ ]
+}
