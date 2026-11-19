@@ -1,0 +1,22 @@
+{
+ "type": "fetch",
+ "note": "Peanut first-time clips PB1-4",
+ "items": [
+  {
+   "url": "https://signed-ext.cdn.opus.pro/media/org_1k7m9d0r0qiIiWIu2MGTB/user_01M7P9D05MQZJ811JPJVPJMGTB/P3111905Lj4P/c.wzd0PMHC7E/VIDEO_FILE_-0-31761.mp4?v=1795066076429518&hdnts=URLPrefix=aHR0cHM6Ly9zaWduZWQtZXh0LmNkbi5vcHVzLnByby9tZWRpYS9vcmdfMWs3bTlkMHIwcWlJaVdJdTJNR1RCL3VzZXJfMDFNN1A5RDA1TVFaSjgxMUpQSlZQSk1HVEIvUDMxMTE5MDVMajRQLw~Expires=1795153702~Signature=kQ42j6eekvjBQsd5fPwcQHN-zPGO3wcekm28QuHJqtVZgdiXPNwfmCeyV8_tKFfWEudCVf8iSIxwHIHAW_UwAQ",
+   "out": "raw/2026-11-19/PB1.mp4"
+  },
+  {
+   "url": "https://signed-ext.cdn.opus.pro/media/org_1k7m9d0r0qiIiWIu2MGTB/user_01M7P9D05MQZJ811JPJVPJMGTB/P3111905Lj4P/c.8cQE1d3Ady/VIDEO_FILE_-0-14163.mp4?v=1795066076397822&hdnts=URLPrefix=aHR0cHM6Ly9zaWduZWQtZXh0LmNkbi5vcHVzLnByby9tZWRpYS9vcmdfMWs3bTlkMHIwcWlJaVdJdTJNR1RCL3VzZXJfMDFNN1A5RDA1TVFaSjgxMUpQSlZQSk1HVEIvUDMxMTE5MDVMajRQLw~Expires=1795153702~Signature=kQ42j6eekvjBQsd5fPwcQHN-zPGO3wcekm28QuHJqtVZgdiXPNwfmCeyV8_tKFfWEudCVf8iSIxwHIHAW_UwAQ",
+   "out": "raw/2026-11-19/PB2.mp4"
+  },
+  {
+   "url": "https://signed-ext.cdn.opus.pro/media/org_1k7m9d0r0qiIiWIu2MGTB/user_01M7P9D05MQZJ811JPJVPJMGTB/P3111905Lj4P/c.v26diFoAeL/VIDEO_FILE_-0-28457.mp4?v=1795066076459448&hdnts=URLPrefix=aHR0cHM6Ly9zaWduZWQtZXh0LmNkbi5vcHVzLnByby9tZWRpYS9vcmdfMWs3bTlkMHIwcWlJaVdJdTJNR1RCL3VzZXJfMDFNN1A5RDA1TVFaSjgxMUpQSlZQSk1HVEIvUDMxMTE5MDVMajRQLw~Expires=1795153703~Signature=Ek9dcHIQ87x2hBAtGjTgSvnkzp15uTA1woIbINhNcYpzxZVkZc90TBcM-HYTKsWjhwRMz7zGhu6R6oA559rLDQ",
+   "out": "raw/2026-11-19/PB3.mp4"
+  },
+  {
+   "url": "https://signed-ext.cdn.opus.pro/media/org_1k7m9d0r0qiIiWIu2MGTB/user_01M7P9D05MQZJ811JPJVPJMGTB/P3111905Lj4P/c.TxHEGeijF9/VIDEO_FILE_-0-35816.mp4?v=1795066076433355&hdnts=URLPrefix=aHR0cHM6Ly9zaWduZWQtZXh0LmNkbi5vcHVzLnByby9tZWRpYS9vcmdfMWs3bTlkMHIwcWlJaVdJdTJNR1RCL3VzZXJfMDFNN1A5RDA1TVFaSjgxMUpQSlZQSk1HVEIvUDMxMTE5MDVMajRQLw~Expires=1795153703~Signature=Ek9dcHIQ87x2hBAtGjTgSvnkzp15uTA1woIbINhNcYpzxZVkZc90TBcM-HYTKsWjhwRMz7zGhu6R6oA559rLDQ",
+   "out": "raw/2026-11-19/PB4.mp4"
+  }
+ ]
+}
