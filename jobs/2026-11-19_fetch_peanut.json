@@ -1,0 +1,22 @@
+{
+ "type": "fetch",
+ "note": "Peanut ClipSpeed live clips",
+ "items": [
+  {
+   "url": "https://cdn.clipspeed.ai/clips/68bcb14a-6730-4322-8cdb-9fca38f5b714/captioned_1fcbf9c9-5547-42ae-ae3d-014d19989dbe_1795056021891.mp4",
+   "out": "raw/2026-11-19/P3.mp4"
+  },
+  {
+   "url": "https://cdn.clipspeed.ai/clips/68bcb14a-6730-4322-8cdb-9fca38f5b714/captioned_eb3dc878-e098-43f7-8f66-7acb06729731_1795055861851.mp4",
+   "out": "raw/2026-11-19/P4.mp4"
+  },
+  {
+   "url": "https://cdn.clipspeed.ai/clips/68bcb14a-6730-4322-8cdb-9fca38f5b714/captioned_56aec3a1-ffa2-4b19-89f7-b481d44ff584_1795055648467.mp4",
+   "out": "raw/2026-11-19/P5.mp4"
+  },
+  {
+   "url": "https://cdn.clipspeed.ai/clips/68bcb14a-6730-4322-8cdb-9fca38f5b714/captioned_9d577f7e-5082-4c4d-8710-bc2b07ac6f2a_1795055506273.mp4",
+   "out": "raw/2026-11-19/P6.mp4"
+  }
+ ]
+}
