@@ -1,0 +1,26 @@
+{
+ "type": "fetch",
+ "note": "21 Nov candidates S1-S5",
+ "items": [
+  {
+   "url": "https://signed-ext.cdn.opus.pro/media/org_1k7m9d0r0qiIiWIu2MGTB/user_01M7P9D05MQZJ811JPJVPJMGTB/P3111905Lj4P/c.TYGVfTLECh/VIDEO_FILE_-0-22781.mp4?v=1795152785585000&hdnts=URLPrefix=aHR0cHM6Ly9zaWduZWQtZXh0LmNkbi5vcHVzLnByby9tZWRpYS9vcmdfMWs3bTlkMHIwcWlJaVdJdTJNR1RCL3VzZXJfMDFNN1A5RDA1TVFaSjgxMUpQSlZQSk1HVEIvUDMxMTE5MDVMajRQLw~Expires=1795239283~Signature=8go0el5mb9ztvEDKj2i5XxvNVgkIJTGC7T31LRFc7AfTztBpk98seieWCrzgspWaOJbPLxnZ7J8KfNOrBddXBA",
+   "out": "raw/2026-11-21/S1.mp4"
+  },
+  {
+   "url": "https://signed-ext.cdn.opus.pro/media/org_1k7m9d0r0qiIiWIu2MGTB/user_01M7P9D05MQZJ811JPJVPJMGTB/P3111905Lj4P/c.vDLPwlUPsw/VIDEO_FILE_-0-23053.mp4?v=1795152780737118&hdnts=URLPrefix=aHR0cHM6Ly9zaWduZWQtZXh0LmNkbi5vcHVzLnByby9tZWRpYS9vcmdfMWs3bTlkMHIwcWlJaVdJdTJNR1RCL3VzZXJfMDFNN1A5RDA1TVFaSjgxMUpQSlZQSk1HVEIvUDMxMTE5MDVMajRQLw~Expires=1795239283~Signature=8go0el5mb9ztvEDKj2i5XxvNVgkIJTGC7T31LRFc7AfTztBpk98seieWCrzgspWaOJbPLxnZ7J8KfNOrBddXBA",
+   "out": "raw/2026-11-21/S2.mp4"
+  },
+  {
+   "url": "https://signed-ext.cdn.opus.pro/media/org_1k7m9d0r0qiIiWIu2MGTB/user_01M7P9D05MQZJ811JPJVPJMGTB/P3111905Lj4P/c.UcpWxbjdR9/VIDEO_FILE_-0-31159.mp4?v=1795152795386607&hdnts=URLPrefix=aHR0cHM6Ly9zaWduZWQtZXh0LmNkbi5vcHVzLnByby9tZWRpYS9vcmdfMWs3bTlkMHIwcWlJaVdJdTJNR1RCL3VzZXJfMDFNN1A5RDA1TVFaSjgxMUpQSlZQSk1HVEIvUDMxMTE5MDVMajRQLw~Expires=1795239284~Signature=2pZW6cOeiHP9j0Jcx50Zf_xoTuEe0QuPyz5F-eojkxEoMCyYzUyWx_PPGLtfwkrPkTWfqlYhxzpzOTZjuKCEDA",
+   "out": "raw/2026-11-21/S3.mp4"
+  },
+  {
+   "url": "https://signed-ext.cdn.opus.pro/media/org_1k7m9d0r0qiIiWIu2MGTB/user_01M7P9D05MQZJ811JPJVPJMGTB/P3111905Lj4P/c.1f7xuK02KO/VIDEO_FILE_-0-36045.mp4?v=1795152792561695&hdnts=URLPrefix=aHR0cHM6Ly9zaWduZWQtZXh0LmNkbi5vcHVzLnByby9tZWRpYS9vcmdfMWs3bTlkMHIwcWlJaVdJdTJNR1RCL3VzZXJfMDFNN1A5RDA1TVFaSjgxMUpQSlZQSk1HVEIvUDMxMTE5MDVMajRQLw~Expires=1795239284~Signature=2pZW6cOeiHP9j0Jcx50Zf_xoTuEe0QuPyz5F-eojkxEoMCyYzUyWx_PPGLtfwkrPkTWfqlYhxzpzOTZjuKCEDA",
+   "out": "raw/2026-11-21/S4.mp4"
+  },
+  {
+   "url": "https://signed-ext.cdn.opus.pro/media/org_1k7m9d0r0qiIiWIu2MGTB/user_01M7P9D05MQZJ811JPJVPJMGTB/P3111823RF5A/c.1ygHZtp9J7/VIDEO_FILE_-0-17730.mp4?v=1795044731429100&hdnts=URLPrefix=aHR0cHM6Ly9zaWduZWQtZXh0LmNkbi5vcHVzLnByby9tZWRpYS9vcmdfMWs3bTlkMHIwcWlJaVdJdTJNR1RCL3VzZXJfMDFNN1A5RDA1TVFaSjgxMUpQSlZQSk1HVEIvUDMxMTE4MjNSRjVBLw~Expires=1795239075~Signature=18fLpDe6F27XgHwNFuBL3euvY7xGE4YSdaIVvj5o1mejeSuZuLn-8fJe6329xP3XNrlNdcnbUNBVnkqxFyApCA",
+   "out": "raw/2026-11-21/S5.mp4"
+  }
+ ]
+}
