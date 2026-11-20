@@ -1,0 +1,14 @@
+{
+ "type": "fetch",
+ "note": "21 Nov candidates S6-S7",
+ "items": [
+  {
+   "url": "https://signed-ext.cdn.opus.pro/media/org_1k7m9d0r0qiIiWIu2MGTB/user_01M7P9D05MQZJ811JPJVPJMGTB/P3111823RF5A/c.JxQKz1TfqA/VIDEO_FILE_-0-31747.mp4?v=1795044731426777&hdnts=URLPrefix=aHR0cHM6Ly9zaWduZWQtZXh0LmNkbi5vcHVzLnByby9tZWRpYS9vcmdfMWs3bTlkMHIwcWlJaVdJdTJNR1RCL3VzZXJfMDFNN1A5RDA1TVFaSjgxMUpQSlZQSk1HVEIvUDMxMTE4MjNSRjVBLw~Expires=1795239531~Signature=POTZ-vLLIVOFkMgwB0I6Tn6fGofN_k7yLvgcczzMNFeoWvlfIA_gWDxcSX-dhDsSwX1BKNwcrAhyksyXetr4Dw",
+   "out": "raw/2026-11-21/S6.mp4"
+  },
+  {
+   "url": "https://signed-ext.cdn.opus.pro/media/org_1k7m9d0r0qiIiWIu2MGTB/user_01M7P9D05MQZJ811JPJVPJMGTB/P3111823RF5A/c.709OKLpztc/VIDEO_FILE_-0-18581.mp4?v=1795044731428962&hdnts=URLPrefix=aHR0cHM6Ly9zaWduZWQtZXh0LmNkbi5vcHVzLnByby9tZWRpYS9vcmdfMWs3bTlkMHIwcWlJaVdJdTJNR1RCL3VzZXJfMDFNN1A5RDA1TVFaSjgxMUpQSlZQSk1HVEIvUDMxMTE4MjNSRjVBLw~Expires=1795239531~Signature=POTZ-vLLIVOFkMgwB0I6Tn6fGofN_k7yLvgcczzMNFeoWvlfIA_gWDxcSX-dhDsSwX1BKNwcrAhyksyXetr4Dw",
+   "out": "raw/2026-11-21/S7.mp4"
+  }
+ ]
+}
